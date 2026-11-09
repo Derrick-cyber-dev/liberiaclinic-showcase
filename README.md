@@ -76,6 +76,18 @@ visit records, and database indexes keep queries fast as data grows.
 - **Not yet available:** live public deployment, and offline data entry. Version 1.0 caches the app and
   previously viewed pages. Saving new records needs a connection
 
+### User Access and Data Confidentiality
+
+LiberiaClinic uses role-based access controls to ensure that patient information is accessible only to authorized personnel according to their responsibilities.
+
+Different user roles have different levels of access:
+
+- **Front-desk staff:** May access administrative patient information, including registration details, demographic information and visit check-in records. They cannot access clinical information such as diagnoses, medications, vital signs or medical history.
+- **Nurses and doctors:** Authorized clinical personnel may access relevant patient medical records, including diagnoses, allergies, chronic conditions, vital signs, medications, treatments and visit history, according to their assigned permissions.
+- **Administrators:** Responsible for managing user accounts, clinic operations, system configuration and audit records. Administrative privileges do not automatically grant access to identifiable clinical records.
+- **Ministry viewers:** May access aggregated health reports and statistical information for monitoring, planning and public health analysis. They are not authorized to access identifiable patient records.
+Access to information is restricted according to user roles and permissions to support patient confidentiality, accountability and responsible handling of health information.
+
 ## Roadmap
 
 - [x] Patient and visit records, allergy alerts, search, dashboard, PDF export
@@ -96,7 +108,7 @@ IT Engineering (Digital Infrastructure and Full-Stack Development) at Ibn Tofail
 
 ## Contact
 
-Technical review access, pilot enquiries and collaboration:
+Technical review access, pilot inquiries and collaboration:
 **derrickteddywongbay@gmail.com**
 [LinkedIn](https://www.linkedin.com/in/derrick-teddy-wongbay-156a7734b)
 
